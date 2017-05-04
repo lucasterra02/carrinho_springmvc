@@ -35,7 +35,6 @@ public class PagamentroController {
                 props.put("http.proxyHost","10.216.8.100"); 
                 props.put("http.proxyPort","8080");
 
-				
 				String response = restTemplate.postForObject(uri, new DadosPagamento(carrinho.getTotal()),String.class);
 				System.out.println(response);
 				model.addFlashAttribute("sucesso", response);
