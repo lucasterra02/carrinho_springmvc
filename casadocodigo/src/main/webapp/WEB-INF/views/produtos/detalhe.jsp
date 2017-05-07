@@ -1,8 +1,9 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt"%>
-<!DOCTYPE html>
 
-<%@include file="/WEB-INF/views/cabecalho.jsp" %>
+<%@ taglib tagdir="/WEB-INF/tags" prefix="tags"%>
+
+<tags:pageTemplate titulo="${produto.titulo }">  
 
 	<article id="${produto.id}">
 		  <header id="product-highlight" class="clearfix">
@@ -61,5 +62,4 @@
 	</div>
 	
 	</article>	
-<%@include file="/WEB-INF/views/rodape.jsp" %>
-</body>
+</tags:pageTemplate>
