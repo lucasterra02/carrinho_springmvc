@@ -42,7 +42,7 @@ public class CarrinhoComprasController {
 	}
 
 	private CarrinhoItem criaItem(Integer produtoId, TipoPreco tipoPreco) {
-
+		//
 		Produto produto = produtoDAO.find(produtoId);
 
 		CarrinhoItem carrinhoItem = new CarrinhoItem(produto, tipoPreco);
