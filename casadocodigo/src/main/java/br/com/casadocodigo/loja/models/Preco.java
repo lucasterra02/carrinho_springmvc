@@ -26,4 +26,10 @@ public class Preco {
 		this.tipo = tipo;
 	}
 
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return this.tipo.name() + " - " + this.valor;
+	}
+
 }
