@@ -43,7 +43,7 @@ public class PagamentroController {
 
 				String response = restTemplate.postForObject(uri, new DadosPagamento(carrinho.getTotal()),String.class);
 				System.out.println(response);
-				enviaEmailCompraProduto(usuario);
+				enviaEmailCompraProduto(usuario); //envia e-mail
 				model.addFlashAttribute("sucesso", response);
 				return new ModelAndView("redirect:/produtos");
 			} catch (HttpClientErrorException e) {
