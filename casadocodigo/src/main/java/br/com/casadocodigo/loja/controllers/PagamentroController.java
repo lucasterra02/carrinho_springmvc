@@ -1,6 +1,5 @@
 package br.com.casadocodigo.loja.controllers;
 
-import java.util.Properties;
 import java.util.concurrent.Callable;
 
 import org.springframework.beans.factory.annotation.Autowired;
