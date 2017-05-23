@@ -8,6 +8,8 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width">
+
 <title>Livros de Java, Android, iPhone, Ruby, PHP e muito mais -
 	Casa do Código</title>
 	
